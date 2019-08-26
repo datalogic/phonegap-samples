@@ -1,12 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>helloworld</name>
+<widget id="com.datalogic.examples.phonegap.barcodemanager" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>BarcodeManager</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Sample to demonstrate how to recieve barcode data from Datalogic devices, programatically press and release scan triggers.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
-    </author>
+    <author href="http://www.datalogic.com/">Datalogic Applications Group</author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
@@ -105,6 +103,6 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <plugin name="cordova-plugin-datalogic" spec="@datalogic/cordova-plugin-datalogic@~0.2.3" />
+    <plugin name="cordova-plugin-datalogic" spec="@datalogic/cordova-plugin-datalogic@~0.4.1" />
     <engine name="android" spec="7.1.4" />
 </widget>
