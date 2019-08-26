@@ -5,4 +5,4 @@
 
 | Name | Description | Screenshot
 |------|-------------|-----------
-| [appname](appdir/) | Demonstrates using the [`pressTrigger`](https://github.com/datalogic/cordova-plugin-datalogic#presstriggersuccesscallback-errorcallback-object) and [`releaseTrigger`](https://github.com/datalogic/cordova-plugin-datalogic#releasetriggersuccesscallback-errorcallback-object)functions to simulate scan trigger button press and release in an app. | ![AutoScanTrigger](appdir/screenshots/screenshot.png)
+| [appname](BarcodeManagerDemoApp/) | Demonstrates using the [`addReadListener`](https://github.com/datalogic/cordova-plugin-datalogic#addreadlistenersuccesscallback-errorcallback-object) ,  [`pressTrigger`](https://github.com/datalogic/cordova-plugin-datalogic#presstriggersuccesscallback-errorcallback-object) and [`releaseTrigger`](https://github.com/datalogic/cordova-plugin-datalogic#releasetriggersuccesscallback-errorcallback-object)functions to simulate scan trigger button press and release in an app. | ![AutoScanTrigger](appdir/screenshots/screenshot.png)
